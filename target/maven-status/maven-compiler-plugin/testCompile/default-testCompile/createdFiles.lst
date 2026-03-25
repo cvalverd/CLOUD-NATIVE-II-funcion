@@ -1,0 +1,4 @@
+com\function\FunctionTest$StubFunction.class
+com\function\HttpResponseMessageMock$HttpResponseMessageBuilderMock.class
+com\function\HttpResponseMessageMock.class
+com\function\FunctionTest.class
