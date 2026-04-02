@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.function.FunctionTest" time="1.631" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.function.GraphqlClassFunctionTest" time="1.069" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -58,21 +58,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testApiErrorReturnsBadGateway" classname="com.function.FunctionTest" time="1.584">
-    <system-err><![CDATA[abr 01, 2026 8:55:11 P. M. com.function.Function run
-INFO: Calculating conversion using mindicador.cl
-abr 01, 2026 8:55:11 P. M. com.function.Function run
-WARNING: Error calling mindicador.cl: timeout
+  <testcase name="testInvalidGraphqlFieldReturnsBadRequest" classname="com.function.GraphqlClassFunctionTest" time="0.9">
+    <system-err><![CDATA[abr 01, 2026 8:55:12 P. M. com.function.GraphqlClassFunction run
+INFO: Executing GraphQL classroom example
 ]]></system-err>
   </testcase>
-  <testcase name="testInvalidPesosReturnsBadRequest" classname="com.function.FunctionTest" time="0.006">
-    <system-err><![CDATA[abr 01, 2026 8:55:11 P. M. com.function.Function run
-INFO: Calculating conversion using mindicador.cl
-]]></system-err>
-  </testcase>
-  <testcase name="testHttpTriggerJavaSuccess" classname="com.function.FunctionTest" time="0.01">
-    <system-err><![CDATA[abr 01, 2026 8:55:11 P. M. com.function.Function run
-INFO: Calculating conversion using mindicador.cl
+  <testcase name="testGraphqlQueryFromBodyReturnsData" classname="com.function.GraphqlClassFunctionTest" time="0.165">
+    <system-err><![CDATA[abr 01, 2026 8:55:12 P. M. com.function.GraphqlClassFunction run
+INFO: Executing GraphQL classroom example
 ]]></system-err>
   </testcase>
 </testsuite>

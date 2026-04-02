@@ -1,2 +1,9 @@
-com\function\Function$IndicadorData.class
 com\function\Function.class
+com\function\graphql\JsonUtils.class
+com\function\graphql\ClassGraphqlProvider.class
+com\function\graphql\ClassroomRepository.class
+com\function\GraphqlClassFunction.class
+com\function\graphql\Curso.class
+com\function\graphql\Profesor.class
+com\function\Function$IndicadorData.class
+com\function\graphql\Alumno.class
